@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/otmane', function () {
-    return view('otmane')->with('name','otmane');
+    return view('otmane');
 });
 Route::get('/admin', function () {
     $name=" otmane  elhaddaji";
-    return view('admin',compact('name'));
+    return view('admin');
 });
